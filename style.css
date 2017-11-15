@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 917px;
+    height: 980px;
+    background: radial-gradient(red); /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#6F5964,#19090D); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#6F5964,#19090D); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#6F5964,#19090D); /* For Firefox 3.6 to 15 */
+    padding-top:0px;
+}
+#header{
+    width: 917px;
+    height: 61px;
+    background-color: silver;
+    margin-bottom:25px;
+}
+
+#spacer{
+    width:917px;
+    height:30px;
+}
+#photo{
+    height: 260px;
+    width:390px;
+    background-color: silver;
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: top;
+}
+#aboutWrapper{
+    height:260px;
+    width:459px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#aboutHeader{
+    height:60px;
+    width:459px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+    }
+    
+
+#aboutContent{
+    height:200px;
+    width:459px;
+    background: #B3B3B6; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,#FFFFFF, #DACBD9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */}
+
+#pic{
+    margin-left: 4px;
+    margin-top: 4px;
+    height:252px;
+    width: 382px;
+}
+#lamodeWrapper{
+    height:545px;
+    width:276px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:20px;
+    background: #B3B3B6; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,#FFFFFF, #DACBD9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */
+
+}
+#lamodeHeader{
+    height:60px;
+    width:276px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+}
+#lamodeContent{
+    height:294px;
+    width:276;
+ }
+#lamodeTech{
+    height: 37px;
+    width:276px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+}
+#lamodeBadges{
+    height:154px;
+    width:276px;
+    margin-left: 15px;
+    margin-top: 10px;
+}   
+#familyWrapper{
+    height:545px;
+    width:276px;
+    display: inline-block;
+    vertical-align: top;  
+    margin-left:20px;
+    background: #B3B3B6; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,#FFFFFF, #DACBD9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */
+
+}
+#familyHeader{
+    height:60px;
+    width:276px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+}
+#familyContent{
+    height:294px;
+    width:276;
+}
+#familyTech{
+    height: 37px;
+    width:276px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+}
+#familyBadges{
+    height:154px;
+    width:276px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#fiveElevenWrapper{
+    height:545px;
+    width:276px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:20px;
+    background: #B3B3B6; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,#FFFFFF, #DACBD9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */
+}
+    
+#fiveElevenHeader{
+    height:60px;
+    width:276px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+}
+    
+#fiveElevenContent{
+    height:294px;
+    width:276;
+}
+           
+#fiveElevenTech{
+    height: 37px;
+    width:276px;
+    background: #B3B3B6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
+}
+    
+#fiveElevenBadges{
+    height:154px;
+    width:276px;
+    margin-left: 15px;
+    margin-top: 10px;}
+
+#footer{
+    width: 917px;
+    height: 61px;
+    background-color: silver;
+    margin-top:20px;
+}
+#portex{
+    width:276px;
+    height: auto;
+    margin: 0 auto;
+}
+#techlogos{
+height:45px;
+width:45px;
+
+}
