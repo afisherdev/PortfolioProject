@@ -16,6 +16,8 @@
     height: 61px;
     background-color: silver;
     margin-bottom:25px;
+    
+
 }
 
 #spacer{
@@ -101,7 +103,6 @@
 #lamodeBadges{
     height:154px;
     width:276px;
-    margin-left: 15px;
     margin-top: 10px;
 }   
 #familyWrapper{
@@ -142,7 +143,6 @@
 #familyBadges{
     height:154px;
     width:276px;
-    margin-left: 15px;
     margin-top: 10px;
 }
 #fiveElevenWrapper{
@@ -186,7 +186,7 @@
 #fiveElevenBadges{
     height:154px;
     width:276px;
-    margin-left: 15px;
+    
     margin-top: 10px;}
 
 #footer{
@@ -198,10 +198,85 @@
 #portex{
     width:276px;
     height: auto;
-    margin: 0 auto;
+    margin:0 auto;
 }
 #techlogos{
 height:45px;
 width:45px;
+margin-left: 5px;
+}
+#buttonfamily{
+    color: white; 
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+#buttonfive{
+    color: white; 
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+#buttonlamode{
+    color: white; 
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+#button{
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+    margin:0 auto;
+    border: 3px;
+    border-color: black;
+    box-shadow: 2px 2px black;
+}
+.large{
+    width: 140px;
+}
+.small{
+    width:75px;
+}
+h2, h3{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p, #continue{
+     color:darkslategrey;   
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ h2, h3, #continue{
+     position: relative;
+     top:20%;
+     margin-left: 10px;
+}
+p{
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size:9pt;
+}
+ #continue, .aboutparagraph{
+     font-size:11pt;
+}
+ .projdescription{
+     font-size:8 pt;
+}
+
+#name{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24pt;
+    margin-left: 20px;
+    margin-top:5px;
+    display: inline-block;  
+}
+#quote{
+    font-size: 24px;
+    margin-left: 325px;
+    position: relative;
+    display: inline-block;
 
 }
