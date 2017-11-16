@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+h2{
+    font-size: 14pt;
+}
 #wrapper{
     width: 917px;
     height: 980px;
@@ -10,6 +13,7 @@
     background: -o-radial-gradient(#6F5964,#19090D); /* For Opera 11.1 to 12.0 */
     background: -moz-radial-gradient(#6F5964,#19090D); /* For Firefox 3.6 to 15 */
     padding-top:0px;
+    margin:0 auto;
 }
 #header{
     width: 917px;
@@ -76,7 +80,6 @@
     background: -o-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */
-
 }
 #lamodeHeader{
     height:60px;
@@ -89,8 +92,8 @@
 }
 #lamodeContent{
     height:294px;
-    width:276;
- }
+    width:276px;
+}
 #lamodeTech{
     height: 37px;
     width:276px;
@@ -116,7 +119,6 @@
     background: -o-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */
-
 }
 #familyHeader{
     height:60px;
@@ -129,7 +131,7 @@
 }
 #familyContent{
     height:294px;
-    width:276;
+    width:276px;
 }
 #familyTech{
     height: 37px;
@@ -157,7 +159,6 @@
     background: -moz-linear-gradient(bottom right,#FFFFFF, #DACBD9); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right,#FFFFFF, #DACBD9); /* Standard syntax (must be last) */
 }
-    
 #fiveElevenHeader{
     height:60px;
     width:276px;
@@ -166,13 +167,11 @@
     background: -o-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
-}
-    
+}    
 #fiveElevenContent{
     height:294px;
-    width:276;
-}
-           
+    width:276px;
+}           
 #fiveElevenTech{
     height: 37px;
     width:276px;
@@ -182,28 +181,27 @@
     background: -moz-linear-gradient(#B3B3B6,#878593, #B3B3B6); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#B3B3B6,#878593, #B3B3B6); /* Standard syntax */
 }
-    
 #fiveElevenBadges{
     height:154px;
     width:276px;
     
-    margin-top: 10px;}
-
+    margin-top: 10px;
+}
 #footer{
     width: 917px;
     height: 61px;
     background-color: silver;
     margin-top:20px;
 }
-#portex{
+.portex{
     width:276px;
     height: auto;
     margin:0 auto;
 }
-#techlogos{
-height:45px;
-width:45px;
-margin-left: 5px;
+.techlogos{
+    height:45px;
+    width:45px;
+    margin-left: 5px;
 }
 #buttonfamily{
     color: white; 
@@ -242,30 +240,26 @@ margin-left: 5px;
     width:75px;
 }
 h2, h3{
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p, #continue{
-     color:darkslategrey;   
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslategrey;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- h2, h3, #continue{
-     position: relative;
-     top:20%;
-     margin-left: 10px;
+h2, h3, #continue{
+    position: relative;
+    top:20%;
+    margin-left: 10px;
 }
 p{
-     margin-left: 10px;
-     margin-right: 10px;
-     font-size:9pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:9pt;
 }
- #continue, .aboutparagraph{
-     font-size:11pt;
+#continue, .aboutparagraph{
+    font-size:11pt;
 }
- .projdescription{
-     font-size:8 pt;
-}
-
 #name{
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 24pt;
@@ -278,5 +272,51 @@ p{
     margin-left: 325px;
     position: relative;
     display: inline-block;
-
+}
+.social{
+    height: 20px;
+    width:20px;
+    display:inline-block;
+}
+.socialtext{
+    font-style:italic;
+    font-size: 12pt;
+}
+#contactinfo{
+    font-family: sans-serif;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-left: 362px;
+}
+#socialfoot{
+    margin-left:290px;
+}
+#social{
+    margin-top:10px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+  
+}
+#fivebutton{
+    position:relative;
+    left:23%;
+}
+#familybutton{
+    position:relative;
+    left:15%;
+}
+#lamodebutton{
+    position:relative;
+    left:25%;
 }
